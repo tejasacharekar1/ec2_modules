@@ -11,10 +11,10 @@ variable "region"{
   type = string
   }
 
-  variable  "vpcsid"{
+  variable  "vpcs"{
    type = list
   }
-  variable "subnetid" {
+  variable "subnet" {
    type = string
   }
  

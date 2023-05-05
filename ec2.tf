@@ -6,8 +6,8 @@ resource "aws_instance" "ec2_newrad" {
   instance_type = var.instance_type
   key_name = var.key_name
   # monitoring  = true
-  vpc_security_group_ids = var.vpcsid
-  subnet_id = var.subnetid
+  vpc_security_group_ids = var.vpcs
+  subnet_id = var.subnet
    tags = {
     Name = var.Name
     Purpose = var.Purpose
